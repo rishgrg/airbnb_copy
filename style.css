@@ -1,0 +1,84 @@
+*{
+      background-color: white;     
+}
+a{
+      text-decoration: none;
+      font-style: bold;
+      color: black;
+}
+header{
+      display: flex;
+      justify-content: space-evenly;
+}
+.logo-airbnb{
+      margin-top: 1.3rem;
+}
+header ul{
+      list-style: none;
+      display: flex;
+      gap: 10px;
+}
+
+.navbar-item{
+      border: 2px solid grey;
+      border-radius: 5px;
+      align-items: center;
+}
+.navbar-item, .navbar-list::after {
+      margin-right: 5px;
+      content: " | ";
+}
+.navbar-item, .navbar-list:last-of-type::after{
+      content: "";
+}
+.login{
+      border-radius: .75rem;
+      padding: .5rem;
+}
+.filters-container{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      margin-top: 2rem;
+}
+.filters-container-item:hover{
+      cursor: pointer;
+      transform:rotate(90deg);
+}
+section img{
+      width: 30px;
+      height: 30px;
+}
+.side-navbar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+}
+
+.guests{
+      border: 0.5px solid grey;
+      border-radius: 5px;
+      padding: 7px;
+}
+.photo1{
+      width: 250px;
+      height: 250px;
+      display:inline-flex;
+      justify-content: space-evenly;
+      border-radius: 5px;
+}
+.accomodation-card-item{
+      margin:50px;
+      border-radius: 5px;
+      width: 300px;
+      height: 400px;
+}
+.accomodations-container{
+      display: flex;
+      align-content: center;
+      flex-wrap: wrap;
+}
+footer{
+      text-align: center;
+}
